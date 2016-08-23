@@ -1,0 +1,8 @@
+{% import "button/index.html" as button %}
+{% import "text-field/index.html" as text_field %}
+
+<form class="m-login-form">
+  {{ text_field.view('User name', '12345') }}
+
+  {{ button.view('Login') }}
+</form>

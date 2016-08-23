@@ -1,0 +1,11 @@
+@import "colors";
+@import "typography";
+
+body {
+  font-size: 12px;
+}
+
+p {
+  border: 1px solid $grey;
+  font-family: $family;
+}

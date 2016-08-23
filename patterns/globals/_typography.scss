@@ -1,0 +1,9 @@
+@import "_colors.scss";
+
+$family: "Tahoma";
+
+%font-action {
+  color: $red;
+  font-size: 1.2rem;
+  line-height: 1.1rem;
+}

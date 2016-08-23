@@ -1,0 +1,5 @@
+@import "typography";
+
+.a-text-field > label {
+  @extend %font-action;
+}
