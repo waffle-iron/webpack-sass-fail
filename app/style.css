@@ -1,11 +1,19 @@
-$family: "Tahoma";
-$grey: lightgrey;
+button {
+  color: #eF2545;
+  font-size: 1.2rem;
+  line-height: 1.1rem;
+}
+
+/*
+@import "colors";
+@import "typography";
+*/
 
 body {
   font-size: 12px;
 }
 
 p {
-  border: 1px solid $grey;
-  font-family: $family;
+  border: 1px solid #cecece;
+  font-family: "Tahoma";
 }

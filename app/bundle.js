@@ -44,7 +44,7 @@
 /* 0 */
 /***/ function(module, exports) {
 
-	console.log('Hello World');
+	// removed by extract-text-webpack-plugin
 
 /***/ }
 /******/ ]);

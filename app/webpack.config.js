@@ -14,7 +14,7 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.css$/, loader: ExtractTextPlugin.extract('style', 'css') },
-      { test: /\.scss$/, loader: ExtractTextPlugin.extract('style', 'css', 'resolve-url', 'sass') }
+      { test: /\.scss$/, loader: ExtractTextPlugin.extract('style', ['css', 'resolve-url', 'sass']) }
     ]
   },
   plugins: [
@@ -25,5 +25,12 @@ module.exports = {
   },
   sassLoader: {
     includePaths: [ path.join(__dirname, '..', 'patterns', 'globals') ]
+  },
+  resolve: {
+    extensions: [
+      '.scss',
+      '.js',
+      ''
+    ]
   }
 };

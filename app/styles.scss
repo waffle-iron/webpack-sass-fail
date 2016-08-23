@@ -1,5 +1,5 @@
-@import "../patterns/globals/colors.scss";
-@import "../patterns/globals/typography.scss";
+@import "colors";
+@import "typography";
 
 /*
 @import "colors";
@@ -11,6 +11,10 @@ body {
 }
 
 p {
-  border: 1px solid $grey;
+  border: 1px solid $gray;
   font-family: $family;
+}
+
+button {
+  @extend %font-action;
 }
