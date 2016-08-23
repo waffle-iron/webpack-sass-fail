@@ -4,6 +4,8 @@ In this project I want to show a (so far) troublesome situation for me. This sit
 
 ## Goal
 
+[![Join the chat at https://gitter.im/webpack-sass-fail/Lobby](https://badges.gitter.im/webpack-sass-fail/Lobby.svg)](https://gitter.im/webpack-sass-fail/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 I want to create a simple pattern library where some global variables, font definitions and patterns are shared across the patterns and the applications. All `@import "colors"` and `@import "typography"` statements in the scss files should reference the files in the folder `./patterns/global/{file}.scss`;
 
 ## Problem / situation
