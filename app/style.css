@@ -1,12 +1,6 @@
-$white: white;
-$red: #990012;
-$grey: lightgrey;$family: "Tahoma";
+$family: "Tahoma";
+$grey: lightgrey;
 
-%font-action {
-  color: $red;
-  font-size: 1.2rem;
-  line-height: 1.1rem;
-}
 body {
   font-size: 12px;
 }

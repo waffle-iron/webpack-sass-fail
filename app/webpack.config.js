@@ -3,20 +3,26 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var webpack = require('webpack');
 
 module.exports = {
-  entry: { style: './styles.scss' },
+  entry: {
+    app: './client.js',
+    style: './styles.scss'
+  },
   output: {
     path: __dirname,
     filename: 'bundle.js'
   },
   module: {
     loaders: [
-      { test: /\.css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader') },
-      { test: /\.scss$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader', 'sass-loader') }
+      { test: /\.css$/, loader: ExtractTextPlugin.extract('style', 'css') },
+      { test: /\.scss$/, loader: ExtractTextPlugin.extract('style', 'css', 'resolve-url', 'sass') }
     ]
   },
   plugins: [
     new ExtractTextPlugin('style.css', { allChunks: true })
   ],
+  resolveUrlLoader: {
+    root: path.join(__dirname, '..', 'patterns', 'globals')
+  },
   sassLoader: {
     includePaths: [ path.join(__dirname, '..', 'patterns', 'globals') ]
   }
