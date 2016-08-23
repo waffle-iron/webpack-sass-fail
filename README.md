@@ -119,6 +119,7 @@ Child extract-text-webpack-plugin:
 - extract-text-webpack-plugin@1.0.1
 - node-sass@3.8.0
 - sass-loader@4.0.0
+- resolve-url-loader@1.6.0
 - style-loader@0.13.1
 - webpack@1.13.2
 
