@@ -6,9 +6,9 @@ I want to create a simple pattern library where some global variables, font defi
 
 ## Problem / situation
 
-It seems like the package `sass-loader` nor the package `node-sass` doesn't support this feature [Situation described by sass-loader itself](https://github.com/jtangelder/sass-loader#problems-with-url).
+It seems like the package `sass-loader` nor the package `node-sass` does support the necessary feature ([Situation described by sass-loader itself](https://github.com/jtangelder/sass-loader#problems-with-url)).
 
-By using the configuration `includePaths` for the `sass-loader` I expected to be able to reference the files via `@import "colors"` and `@import "typography"` statement.
+By using the configuration `includePaths` for the `sass-loader` I expected to be able to reference the files via `@import "colors"` and `@import "typography"` or via `@import "_colors.scss"` and `@import "_typography.scss"` statement.
 
 ### Error report
 
