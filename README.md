@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/jbrieske/webpack-sass-fail.png?label=ready&title=Ready)](https://waffle.io/jbrieske/webpack-sass-fail)
 # Webpack Sass Fail [![Join the chat at https://gitter.im/webpack-sass-fail/Lobby](https://badges.gitter.im/webpack-sass-fail/Lobby.svg)](https://gitter.im/webpack-sass-fail/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 In this project I want to show a (so far) troublesome situation for me. This situation is simplified compared to the real situation (there I am using React) for my company.
